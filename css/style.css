@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+ li, a, h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: cornflowerblue;
+    text-decoration: none;
+ }
+
+ header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 2%;
+ }
+ .logo{
+    width: 60px;
+    cursor: pointer;
+    margin-right: auto;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+ }
+.logo:hover{
+    width: 75px;
+}
+ .nav_links{
+    list-style: none;
+ }
+
+ .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+ }
+
+ .nav_links li a{
+    transition: all 0.3s ease 0s;
+ }
+
+ .nav_links li a:hover{
+    color: blue;
+ }
+
+ #cont{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 9px 25px;
+    background-color: rgba(0, 13, 169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+ button:hover{
+    color: cornflowerblue;
+    background-color: rgba(0, 13, 169,0.8);
+ }
+
+ .content{
+    flex-wrap: nowrap;
+    margin-top: -10px;
+    /* margin-right: 10px; */
+    margin-left: 70px;
+ }
+ .content .hello{
+    color: dimgray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 120px;
+ }
+ h1{
+    color: darkgrey;
+    font-family: "Lilita One", sans-serif;
+    font-size: 48px;
+    word-spacing: 15px;
+    margin-bottom: 15px;
+ }
+ span{
+    color: red;
+ }
+ #p0 {
+    color: dimgray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin-bottom: 13px;
+ }
+
+ #p1 {
+    color: dimgray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin-bottom: 60px;
+ }
+ 
+ #cv{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    background-color: red;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 2px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+ }
+
+ #cv:hover{
+    font-size: 15px;
+    cursor: pointer;
+ }
+
+ .my-Pic{
+    margin-top: 10px;
+    float: right;
+    width: 520px;
+    height: 500px;
+ }
